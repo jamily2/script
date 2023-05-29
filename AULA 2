@@ -1,0 +1,23 @@
+ler valor do jantar, calcular e informar, taxa do garçom de 10% e o valor total
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+</head>
+<body>
+    <script>
+        var valorJanta;
+        var taxaGarçom;
+        var valorTotal;
+        valorJanta = prompt("Digite o valor do jantar: ");
+        valorJanta = parseFloat(valorJanta);
+        taxaGarçom = valorJanta * 0,1;
+        valorTotal = valorJanta + taxaGarçom;
+        alert("O valor a ser pago é; " + valorTotal);
+    </script>
+</body>
+</html>
