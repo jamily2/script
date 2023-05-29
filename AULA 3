@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3</title>
+</head>
+<body>
+    
+    <h1>Número de dias transformado em horas</h1> 
+<style>
+    body{
+        background-color: pink;
+        display: flex;
+        align-items: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+</style>
+
+    <script>
+        var horas;
+        var dias;
+        var dias2;
+        var soma;
+        dias=prompt("Digite os dias: ");
+        dias=parseFloat(dias);
+        horas=prompt("Digite as horas: ");
+        horas=parseFloat(horas);
+        dias2=24*dias;
+        soma=dias2+horas;
+        alert("a viagem em horas é: " + soma);
+    </script>
+</body>
+</html>
